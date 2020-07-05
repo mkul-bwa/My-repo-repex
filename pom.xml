@@ -14,6 +14,14 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.sonatype.nexus/nexus-plugin-api -->
+<dependency>
+    <groupId>org.sonatype.nexus</groupId>
+    <artifactId>nexus-plugin-api</artifactId>
+    <version>3.24.0-02</version>
+    <scope>provided</scope>
+</dependency>
+
   </dependencies>
   <build>
     <plugins>
